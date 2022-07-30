@@ -1,0 +1,6 @@
+version: '3.1'
+services:
+  rest-service:
+    image: docker.io/library/spring-native-bug:0.0.1-SNAPSHOT
+    ports:
+      - "8084:8084"
